@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Scientific</string>
+    <string name="x">x<sup><small>n</small></sup></string>
+    <string name="cuberoot"><sup><small>3</small></sup>√</string>
+    <string name="asin">sin<sup><small>-1</small></sup></string>
+    <string name="acos">cos<sup><small>-1</small></sup></string>
+    <string name="atan">tan<sup><small>-1</small></sup></string>
+    <string name="log10">log<sub><small>10</small></sub></string>
+    <string name="loginv">10<sup>n</sup></string>
+
+
+</resources>
