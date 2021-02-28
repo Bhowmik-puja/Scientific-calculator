@@ -340,6 +340,7 @@ public class MainActivity extends AppCompatActivity {
     public void inverse(View view) {
         if(inv ==0){
             inv = 1;
+            hyp = 0;
             sinbtn.setText(R.string.asin);
             cosbtn.setText(R.string.acos);
             tanbtn.setText(R.string.atan);
@@ -359,6 +360,7 @@ public class MainActivity extends AppCompatActivity {
     public void hyp(View view) {
         if(hyp ==0){
             hyp = 1;
+            inv = 0;
             sinbtn.setText("sinh");
             cosbtn.setText("cosh");
             tanbtn.setText("tanh");
